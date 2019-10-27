@@ -5,6 +5,6 @@ class Course
 
   def initialized
     @@all << self
-  end
+  end 
 
 end
