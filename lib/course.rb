@@ -3,4 +3,8 @@ class Course
 
   @@all=[]
 
+  def initialized
+    @@all << self
+  end
+
 end
